@@ -71,7 +71,7 @@ hr{
 .showcase{
     width: 100%;
     height: 550px;
-    background: url("./img/showcase2.jpg") no-repeat center center/cover;
+    background: url("./img/dark-black-technology-background-vector.jpg") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +79,7 @@ hr{
     justify-content: flex-end;
     padding-bottom: 50px;
     margin-bottom: 20px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin: 20px 0;
 }
 
@@ -131,4 +131,68 @@ hr{
 
 .news-card a:hover{
     text-decoration: underline;
+}
+
+/*Banner*/
+
+.cards-banner-one{
+    width: 100%;
+    height: 350px;
+    background: url(/img/tech-red.jpg)no-repeat center/cover;
+    margin-bottom: 40px;
+}
+
+.cards-banner-one .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: #f2f2f2;
+}
+
+.cards-banner-one p,
+.cards-banner-one h2{
+    margin: 10px 0 20px 0;
+}
+
+.cards-banner-two{
+    width: 100%;
+    height: 350px;
+    background: url(/img/image-five.jpg)no-repeat center/cover;
+    margin-bottom: 40px;
+}
+
+.cards-banner-two .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: #f2f2f2;
+}
+
+.cards-banner-two p,
+.cards-banner-two h2{
+    margin: 10px 0 20px 0;
+}
+
+/*social*/
+
+.social{
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.social .links{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.social .links a i{
+    font-size: 3rem;
+}
+
+.social .links a{
+    margin: 0 30px;
 }
